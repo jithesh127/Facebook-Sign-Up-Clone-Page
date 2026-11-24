@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook signup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="facebook logo.jpg" type="/image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-div">
+        <h1 id="logo">facebook</h1>
+        <form id="signup">
+        <div class="signup-form">
+            <div class="form-heading">
+                <h2>Create a new account</h2>
+                <p>Its quick and easy</p>
+            </div>
+            <div class="input-fields">
+                <div class="half-width">
+                    <input type="text" placeholder="First name" name="fname" >
+                </div>
+                <div class="half-width">
+                    <input type="text" placeholder="Surname" name="surname">
+                </div>
+                <div class="full-width">
+                    <input type="text" placeholder="Monile number or email address" name="mobile"/>
+                </div>
+                <div class="full-width">
+                    <input type="text" placeholder="New Password" name="password"/>
+                </div>
+                <label>Date of Birth</label>
+                <div class="dob-div">
+                    <div class="quat-width">
+                        <select name="day">
+                            <option value="">choose</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </div>
+                    <div class="quat-width">
+                        <select name="month">
+                            <option value="">choose</option>
+                            <option value="jan">jan</option>
+                            <option value="feb">feb</option>
+                        </select>
+                    </div>
+                    <div class="quat-width">
+                        <select name="year">
+                            <option value="">choose</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                        </select>
+                    </div>
+                </div>
+                <label>Gender</label>
+                <div class="dob-div">
+                    <div class="quat-width">
+                       <div class="radio-btn">
+                            <label class="radio-label">Female</label>
+                            <input type="radio" class="radio-input" name="gender" />
+                       </div>
+                    </div>
+                    <div class="quat-width">
+                       <div class="radio-btn">
+                            <label class="radio-label">Male</label>
+                            <input type="radio" class="radio-input" name="gender" />
+                       </div>
+                    </div>
+                    <div class="quat-width">
+                        <div class="radio-btn">
+                            <label class="radio-label">Custom</label>
+                            <input type="radio" class="radio-input" name="gender" />
+                       </div>
+                    </div>
+                </div>
+                <small>People who use our service may have uploaded your contact information to  facebook.<a href="https://www.instagram.com/" target="_blank">Learn more</a></small>
+                <small>By clicking Sign up,you agree to our Terms.Privacy Policy and Cookies Policy.You may reeceive SMS notifications from us and can opt out at any <time datetime="" class=""></time></small>
+            </div>
+            <div class="button-div">
+                <button class="signup-btn">Sign up</button>
+            </div>
+            <div class="account-div">
+                <a href="https://www.facebook.com/">Already have an account?</a>
+
+            </div>
+
+        </div>
+        </form>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"></script>
+<script src="JS/validation.js"></script>
+</html>
