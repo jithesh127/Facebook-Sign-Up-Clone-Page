@@ -1,14 +1,14 @@
 # Facebook-Inspired Sign-Up Form | Frontend
 
-A frontend practice project demonstrating form layout and client-side validation in a Facebook-inspired signup page.
+A frontend practice project focused on form layout, input handling, and client-side validation.
 
 > Educational UI exercise only. Not affiliated with or endorsed by Facebook. It does not create accounts or provide real authentication.
 
-## Built With
-HTML5 · CSS3 · JavaScript · jQuery · jQuery Validation Plugin
+## Technologies
+**HTML5 · CSS3 · JavaScript · jQuery · jQuery Validation Plugin**
 
 ## Features
-- First name, surname, mobile, password, date-of-birth, and gender fields
+- Signup form fields for name, mobile, password, date of birth, and gender
 - Required-field validation
 - First-name minimum-length validation (5 characters)
 - Custom validation messages
@@ -16,10 +16,10 @@ HTML5 · CSS3 · JavaScript · jQuery · jQuery Validation Plugin
 ## Run Locally
 1. Clone or download this repository.
 2. Open the project folder.
-3. Open index.html in your browser.
+3. Open `index.html` in a browser.
 
-## Scope & Privacy
-This is a client-side demonstration. It has no backend integration and should not be used to submit real personal information.
+## Project Scope
+This is a client-side demonstration with no backend integration. Do not enter real personal information.
 
 ---
 Created by **Jithesh D** · [GitHub](https://github.com/jithesh127)
